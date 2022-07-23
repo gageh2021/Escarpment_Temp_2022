@@ -43,47 +43,47 @@ QueenStHill_4.15 <- read.csv("QueenStHill_Probe4.15.csv")
 QueenStHill_4.16 <- read.csv("QueenStHill_Probe4.16.csv")
 QueenStHill_4.17 <- read.csv("QueenStHill_Probe4.17.csv")
 
-names(QueenStHill_3.1) <- c("X.", "Date-Time (EST)", "Ch: 1-Temperature (°C)", "Ch: 2-Temperature (°C)", "y", "z")
-    QueenStHill_3.1 <- subset(QueenStHill_3.1, select = -c(y,z))
-names(QueenStHill_3.2) <- c("X.", "Date-Time (EST)", "Ch: 1-Temperature (°C)", "Ch: 2-Temperature (°C)", "y", "z")
-    QueenStHill_3.2 <- subset(QueenStHill_3.2, select = -c(y,z))
-names(QueenStHill_3.3) <- c("X.", "Date-Time (EST)", "Ch: 1-Temperature (°C)", "Ch: 2-Temperature (°C)", "y", "z")
-    QueenStHill_3.3 <- subset(QueenStHill_3.3, select = -c(y,z))
-names(QueenStHill_3.4) <- c("X.", "Date-Time (EST)", "Ch: 1-Temperature (°C)", "Ch: 2-Temperature (°C)")
-names(QueenStHill_3.5) <- c("X.", "Date-Time (EST)", "Ch: 1-Temperature (°C)", "Ch: 2-Temperature (°C)")
-names(QueenStHill_3.6) <- c("X.", "Date-Time (EST)", "Ch: 1-Temperature (°C)", "Ch: 2-Temperature (°C)")
-names(QueenStHill_3.7) <- c("X.", "Date-Time (EST)", "Ch: 1-Temperature (°C)", "Ch: 2-Temperature (°C)")
-names(QueenStHill_3.8) <- c("X.", "Date-Time (EST)", "Ch: 1-Temperature (°C)", "Ch: 2-Temperature (°C)")
-names(QueenStHill_3.9) <- c("X.", "Date-Time (EST)", "Ch: 1-Temperature (°C)", "Ch: 2-Temperature (°C)")
-names(QueenStHill_3.10) <- c("X.", "Date-Time (EST)", "Ch: 1-Temperature (°C)", "Ch: 2-Temperature (°C)")
-names(QueenStHill_3.11) <- c("X.", "Date-Time (EST)", "Ch: 1-Temperature (°C)", "Ch: 2-Temperature (°C)")
-names(QueenStHill_3.12) <- c("X.", "Date-Time (EST)", "Ch: 1-Temperature (°C)", "Ch: 2-Temperature (°C)")
-names(QueenStHill_3.13) <- c("X.", "Date-Time (EST)", "Ch: 1-Temperature (°C)", "Ch: 2-Temperature (°C)")
-names(QueenStHill_3.14) <- c("X.", "Date-Time (EST)", "Ch: 1-Temperature (°C)", "Ch: 2-Temperature (°C)")
-names(QueenStHill_3.15) <- c("X.", "Date-Time (EST)", "Ch: 1-Temperature (°C)", "Ch: 2-Temperature (°C)")
-names(QueenStHill_3.16) <- c("X.", "Date-Time (EST)", "Ch: 1-Temperature (°C)", "Ch: 2-Temperature (°C)")
-names(QueenStHill_3.17) <- c("X.", "Date-Time (EST)", "Ch: 1-Temperature (°C)", "Ch: 2-Temperature (°C)")
+names(QueenStHill_3.1) <- c("X.", "Date-Time (EST)", "FT", "ST")
+    #QueenStHill_3.1 <- subset(QueenStHill_3.1, select = -c(y,z))
+names(QueenStHill_3.2) <- c("X.", "Date-Time (EST)", "FT", "ST")
+    #QueenStHill_3.2 <- subset(QueenStHill_3.2, select = -c(y,z))
+names(QueenStHill_3.3) <- c("X.", "Date-Time (EST)", "FT", "ST")
+    #QueenStHill_3.3 <- subset(QueenStHill_3.3, select = -c(y,z))
+names(QueenStHill_3.4) <- c("X.", "Date-Time (EST)", "FT", "ST")
+names(QueenStHill_3.5) <- c("X.", "Date-Time (EST)", "FT", "ST")
+names(QueenStHill_3.6) <- c("X.", "Date-Time (EST)", "FT", "ST")
+names(QueenStHill_3.7) <- c("X.", "Date-Time (EST)", "FT", "ST")
+names(QueenStHill_3.8) <- c("X.", "Date-Time (EST)", "FT", "ST")
+names(QueenStHill_3.9) <- c("X.", "Date-Time (EST)", "FT", "ST")
+names(QueenStHill_3.10) <- c("X.", "Date-Time (EST)", "FT", "ST")
+names(QueenStHill_3.11) <- c("X.", "Date-Time (EST)", "FT", "ST")
+names(QueenStHill_3.12) <- c("X.", "Date-Time (EST)", "FT", "ST")
+names(QueenStHill_3.13) <- c("X.", "Date-Time (EST)", "FT", "ST")
+names(QueenStHill_3.14) <- c("X.", "Date-Time (EST)", "FT", "ST")
+names(QueenStHill_3.15) <- c("X.", "Date-Time (EST)", "FT", "ST")
+names(QueenStHill_3.16) <- c("X.", "Date-Time (EST)", "FT", "ST")
+names(QueenStHill_3.17) <- c("X.", "Date-Time (EST)", "FT", "ST")
 
-names(QueenStHill_4.1) <- c("X.", "Date-Time (EST)", "Ch: 1-Temperature (°C)", "Ch: 2-Temperature (°C)", "y", "z")
-QueenStHill_4.1 <- subset(QueenStHill_4.1, select = -c(y,z))
-names(QueenStHill_4.2) <- c("X.", "Date-Time (EST)", "Ch: 1-Temperature (°C)", "Ch: 2-Temperature (°C)", "y", "z")
-QueenStHill_4.2 <- subset(QueenStHill_4.2, select = -c(y,z))
-names(QueenStHill_4.3) <- c("X.", "Date-Time (EST)", "Ch: 1-Temperature (°C)", "Ch: 2-Temperature (°C)", "y", "z")
-QueenStHill_4.3 <- subset(QueenStHill_4.3, select = -c(y,z))
-names(QueenStHill_4.4) <- c("X.", "Date-Time (EST)", "Ch: 1-Temperature (°C)", "Ch: 2-Temperature (°C)")
-names(QueenStHill_4.5) <- c("X.", "Date-Time (EST)", "Ch: 1-Temperature (°C)", "Ch: 2-Temperature (°C)")
-names(QueenStHill_4.6) <- c("X.", "Date-Time (EST)", "Ch: 1-Temperature (°C)", "Ch: 2-Temperature (°C)")
-names(QueenStHill_4.7) <- c("X.", "Date-Time (EST)", "Ch: 1-Temperature (°C)", "Ch: 2-Temperature (°C)")
-names(QueenStHill_4.8) <- c("X.", "Date-Time (EST)", "Ch: 1-Temperature (°C)", "Ch: 2-Temperature (°C)")
-names(QueenStHill_4.9) <- c("X.", "Date-Time (EST)", "Ch: 1-Temperature (°C)", "Ch: 2-Temperature (°C)")
-names(QueenStHill_4.10) <- c("X.", "Date-Time (EST)", "Ch: 1-Temperature (°C)", "Ch: 2-Temperature (°C)")
-names(QueenStHill_4.11) <- c("X.", "Date-Time (EST)", "Ch: 1-Temperature (°C)", "Ch: 2-Temperature (°C)")
-names(QueenStHill_4.12) <- c("X.", "Date-Time (EST)", "Ch: 1-Temperature (°C)", "Ch: 2-Temperature (°C)")
-names(QueenStHill_4.13) <- c("X.", "Date-Time (EST)", "Ch: 1-Temperature (°C)", "Ch: 2-Temperature (°C)")
-names(QueenStHill_4.14) <- c("X.", "Date-Time (EST)", "Ch: 1-Temperature (°C)", "Ch: 2-Temperature (°C)")
-names(QueenStHill_4.15) <- c("X.", "Date-Time (EST)", "Ch: 1-Temperature (°C)", "Ch: 2-Temperature (°C)")
-names(QueenStHill_4.16) <- c("X.", "Date-Time (EST)", "Ch: 1-Temperature (°C)", "Ch: 2-Temperature (°C)")
-names(QueenStHill_4.17) <- c("X.", "Date-Time (EST)", "Ch: 1-Temperature (°C)", "Ch: 2-Temperature (°C)")
+names(QueenStHill_4.1) <- c("X.", "Date-Time (EST)", "FT", "ST")
+  #QueenStHill_4.1 <- subset(QueenStHill_4.1, select = -c(y,z))
+names(QueenStHill_4.2) <- c("X.", "Date-Time (EST)", "FT", "ST")
+  #QueenStHill_4.2 <- subset(QueenStHill_4.2, select = -c(y,z))
+names(QueenStHill_4.3) <- c("X.", "Date-Time (EST)", "FT", "ST")
+  #QueenStHill_4.3 <- subset(QueenStHill_4.3, select = -c(y,z))
+names(QueenStHill_4.4) <- c("X.", "Date-Time (EST)", "FT", "ST")
+names(QueenStHill_4.5) <- c("X.", "Date-Time (EST)", "FT", "ST")
+names(QueenStHill_4.6) <- c("X.", "Date-Time (EST)", "FT", "ST")
+names(QueenStHill_4.7) <- c("X.", "Date-Time (EST)", "FT", "ST")
+names(QueenStHill_4.8) <- c("X.", "Date-Time (EST)", "FT", "ST")
+names(QueenStHill_4.9) <- c("X.", "Date-Time (EST)", "FT", "ST")
+names(QueenStHill_4.10) <- c("X.", "Date-Time (EST)", "FT", "ST")
+names(QueenStHill_4.11) <- c("X.", "Date-Time (EST)", "FT", "ST")
+names(QueenStHill_4.12) <- c("X.", "Date-Time (EST)", "FT", "ST")
+names(QueenStHill_4.13) <- c("X.", "Date-Time (EST)", "FT", "ST")
+names(QueenStHill_4.14) <- c("X.", "Date-Time (EST)", "FT", "ST")
+names(QueenStHill_4.15) <- c("X.", "Date-Time (EST)", "FT", "ST")
+names(QueenStHill_4.16) <- c("X.", "Date-Time (EST)", "FT", "ST")
+names(QueenStHill_4.17) <- c("X.", "Date-Time (EST)", "FT", "ST")
 
 QueenStHill_FullProbe3 <- rbind(QueenStHill_3.1, QueenStHill_3.2, QueenStHill_3.3, QueenStHill_3.4, 
                                 QueenStHill_3.5, QueenStHill_3.6, QueenStHill_3.7, QueenStHill_3.8, 
@@ -97,4 +97,40 @@ QueenStHill_FullProbe4 <- rbind(QueenStHill_4.1, QueenStHill_4.2, QueenStHill_4.
                                 QueenStHill_4.13, QueenStHill_4.14, QueenStHill_4.15, QueenStHill_4.16,
                                 QueenStHill_4.17)
 
+#Probe 3
+require (dplyr)
+#difference ST
+difference_ST <- QueenStHill_FullProbe3 %>% select(ST) %>% mutate(difference_ST = ST - lag(ST))
+print (difference_ST)
+#difference_FT
+difference_FT <- QueenStHill_FullProbe3 %>% select(FT) %>% mutate(difference_FT = FT - lag(FT))
+print (difference_FT)
 
+QueenStHill_FullProbe3 <- cbind(QueenStHill_FullProbe3, difference_ST, difference_FT)
+
+colnames(QueenStHill_FullProbe3) <- c("X.", "Date-Time (EST)", "ST", "FT", "ST1", "difference_ST", "FT1", "difference_FT")
+QueenStHill_FullProbe3<- subset(QueenStHill_FullProbe3, select = -c(ST1,FT1))
+
+#thermal shock 
+sum((QueenStHill_FullProbe3$difference_FT) >= 1 | (QueenStHill_FullProbe3$difference_FT) <= -1, na.rm = TRUE)
+sum((QueenStHill_FullProbe3$difference_ST) >= 1 | (QueenStHill_FullProbe3$difference_ST) <= -1, na.rm = TRUE)
+
+
+#Probe 4
+require (dplyr)
+#difference_FT
+difference_FT <- QueenStHill_FullProbe4 %>% select(FT) %>% mutate(difference_FT = FT - lag(FT))
+print (difference_FT)
+#difference ST
+difference_ST <- QueenStHill_FullProbe4 %>% select(ST) %>% mutate(difference_ST = ST - lag(ST))
+print (difference_ST)
+
+
+QueenStHill_FullProbe4 <- cbind(QueenStHill_FullProbe4, difference_ST, difference_FT)
+
+colnames(QueenStHill_FullProbe4) <- c("X.", "Date-Time (EST)", "FT", "ST", "ST1", "difference_ST", "FT1", "difference_FT")
+QueenStHill_FullProbe4<- subset(QueenStHill_FullProbe4, select = -c(ST1,FT1))
+
+#thermal shock 
+sum((QueenStHill_FullProbe4$difference_FT) >= 1 | (QueenStHill_FullProbe4$difference_FT) <= -1, na.rm = TRUE)
+sum((QueenStHill_FullProbe4$difference_ST) >= 1 | (QueenStHill_FullProbe4$difference_ST) <= -1, na.rm = TRUE)
