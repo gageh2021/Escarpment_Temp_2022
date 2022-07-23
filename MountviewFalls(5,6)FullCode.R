@@ -45,47 +45,47 @@ MountviewFalls_6.17 <- read.csv("MountviewFalls_Probe6.17.csv")
 
 
 
-names(MountviewFalls_5.1) <- c("X.", "Date-Time (EST)", "Ch: 1-Temperature (°C)", "Ch: 2-Temperature (°C)", "y", "z")
-MountviewFalls_5.1 <- subset(MountviewFalls_5.1, select = -c(y,z))
-names(MountviewFalls_5.2) <- c("X.", "Date-Time (EST)", "Ch: 1-Temperature (°C)", "Ch: 2-Temperature (°C)", "y", "z")
-MountviewFalls_5.2 <- subset(MountviewFalls_5.2, select = -c(y,z))
-names(MountviewFalls_5.3) <- c("X.", "Date-Time (EST)", "Ch: 1-Temperature (°C)", "Ch: 2-Temperature (°C)", "y", "z")
-MountviewFalls_5.3 <- subset(MountviewFalls_5.3, select = -c(y,z))
-names(MountviewFalls_5.4) <- c("X.", "Date-Time (EST)", "Ch: 1-Temperature (°C)", "Ch: 2-Temperature (°C)")
-names(MountviewFalls_5.5) <- c("X.", "Date-Time (EST)", "Ch: 1-Temperature (°C)", "Ch: 2-Temperature (°C)")
-names(MountviewFalls_5.6) <- c("X.", "Date-Time (EST)", "Ch: 1-Temperature (°C)", "Ch: 2-Temperature (°C)")
-names(MountviewFalls_5.7) <- c("X.", "Date-Time (EST)", "Ch: 1-Temperature (°C)", "Ch: 2-Temperature (°C)")
-names(MountviewFalls_5.8) <- c("X.", "Date-Time (EST)", "Ch: 1-Temperature (°C)", "Ch: 2-Temperature (°C)")
-names(MountviewFalls_5.9) <- c("X.", "Date-Time (EST)", "Ch: 1-Temperature (°C)", "Ch: 2-Temperature (°C)")
-names(MountviewFalls_5.10) <- c("X.", "Date-Time (EST)", "Ch: 1-Temperature (°C)", "Ch: 2-Temperature (°C)")
-names(MountviewFalls_5.11) <- c("X.", "Date-Time (EST)", "Ch: 1-Temperature (°C)", "Ch: 2-Temperature (°C)")
-names(MountviewFalls_5.12) <- c("X.", "Date-Time (EST)", "Ch: 1-Temperature (°C)", "Ch: 2-Temperature (°C)")
-names(MountviewFalls_5.13) <- c("X.", "Date-Time (EST)", "Ch: 1-Temperature (°C)", "Ch: 2-Temperature (°C)")
-names(MountviewFalls_5.14) <- c("X.", "Date-Time (EST)", "Ch: 1-Temperature (°C)", "Ch: 2-Temperature (°C)")
-names(MountviewFalls_5.15) <- c("X.", "Date-Time (EST)", "Ch: 1-Temperature (°C)", "Ch: 2-Temperature (°C)")
-names(MountviewFalls_5.16) <- c("X.", "Date-Time (EST)", "Ch: 1-Temperature (°C)", "Ch: 2-Temperature (°C)")
-names(MountviewFalls_5.17) <- c("X.", "Date-Time (EST)", "Ch: 1-Temperature (°C)", "Ch: 2-Temperature (°C)")
+names(MountviewFalls_5.1) <- c("X.", "Date-Time (EST)", "FT", "ST")
+  #MountviewFalls_5.1 <- subset(MountviewFalls_5.1, select = -c(y,z))
+names(MountviewFalls_5.2) <- c("X.", "Date-Time (EST)", "FT", "ST")
+  #MountviewFalls_5.2 <- subset(MountviewFalls_5.2, select = -c(y,z))
+names(MountviewFalls_5.3) <- c("X.", "Date-Time (EST)", "FT", "ST")
+  #MountviewFalls_5.3 <- subset(MountviewFalls_5.3, select = -c(y,z))
+names(MountviewFalls_5.4) <- c("X.", "Date-Time (EST)", "FT", "ST")
+names(MountviewFalls_5.5) <- c("X.", "Date-Time (EST)", "FT", "ST")
+names(MountviewFalls_5.6) <- c("X.", "Date-Time (EST)", "FT", "ST")
+names(MountviewFalls_5.7) <- c("X.", "Date-Time (EST)", "FT", "ST")
+names(MountviewFalls_5.8) <- c("X.", "Date-Time (EST)", "FT", "ST")
+names(MountviewFalls_5.9) <- c("X.", "Date-Time (EST)", "FT", "ST")
+names(MountviewFalls_5.10) <- c("X.", "Date-Time (EST)", "FT", "ST")
+names(MountviewFalls_5.11) <- c("X.", "Date-Time (EST)", "FT", "ST")
+names(MountviewFalls_5.12) <- c("X.", "Date-Time (EST)", "FT", "ST")
+names(MountviewFalls_5.13) <- c("X.", "Date-Time (EST)", "FT", "ST")
+names(MountviewFalls_5.14) <- c("X.", "Date-Time (EST)", "FT", "ST")
+names(MountviewFalls_5.15) <- c("X.", "Date-Time (EST)", "FT", "ST")
+names(MountviewFalls_5.16) <- c("X.", "Date-Time (EST)", "FT", "ST")
+names(MountviewFalls_5.17) <- c("X.", "Date-Time (EST)", "FT", "ST")
 
-names(MountviewFalls_6.1) <- c("X.", "Date-Time (EST)", "Ch: 1-Temperature (°C)", "Ch: 2-Temperature (°C)", "y", "z")
-MountviewFalls_6.1 <- subset(MountviewFalls_6.1, select = -c(y,z))
-names(MountviewFalls_6.2) <- c("X.", "Date-Time (EST)", "Ch: 1-Temperature (°C)", "Ch: 2-Temperature (°C)", "y", "z")
-MountviewFalls_6.2 <- subset(MountviewFalls_6.2, select = -c(y,z))
-names(MountviewFalls_6.3) <- c("X.", "Date-Time (EST)", "Ch: 1-Temperature (°C)", "Ch: 2-Temperature (°C)", "y", "z")
-MountviewFalls_6.3 <- subset(MountviewFalls_6.3, select = -c(y,z))
-names(MountviewFalls_6.4) <- c("X.", "Date-Time (EST)", "Ch: 1-Temperature (°C)", "Ch: 2-Temperature (°C)")
-names(MountviewFalls_6.5) <- c("X.", "Date-Time (EST)", "Ch: 1-Temperature (°C)", "Ch: 2-Temperature (°C)")
-names(MountviewFalls_6.6) <- c("X.", "Date-Time (EST)", "Ch: 1-Temperature (°C)", "Ch: 2-Temperature (°C)")
-names(MountviewFalls_6.7) <- c("X.", "Date-Time (EST)", "Ch: 1-Temperature (°C)", "Ch: 2-Temperature (°C)")
-names(MountviewFalls_6.8) <- c("X.", "Date-Time (EST)", "Ch: 1-Temperature (°C)", "Ch: 2-Temperature (°C)")
-names(MountviewFalls_6.9) <- c("X.", "Date-Time (EST)", "Ch: 1-Temperature (°C)", "Ch: 2-Temperature (°C)")
-names(MountviewFalls_6.10) <- c("X.", "Date-Time (EST)", "Ch: 1-Temperature (°C)", "Ch: 2-Temperature (°C)")
-names(MountviewFalls_6.11) <- c("X.", "Date-Time (EST)", "Ch: 1-Temperature (°C)", "Ch: 2-Temperature (°C)")
-names(MountviewFalls_6.12) <- c("X.", "Date-Time (EST)", "Ch: 1-Temperature (°C)", "Ch: 2-Temperature (°C)")
-names(MountviewFalls_6.13) <- c("X.", "Date-Time (EST)", "Ch: 1-Temperature (°C)", "Ch: 2-Temperature (°C)")
-names(MountviewFalls_6.14) <- c("X.", "Date-Time (EST)", "Ch: 1-Temperature (°C)", "Ch: 2-Temperature (°C)")
-names(MountviewFalls_6.15) <- c("X.", "Date-Time (EST)", "Ch: 1-Temperature (°C)", "Ch: 2-Temperature (°C)")
-names(MountviewFalls_6.16) <- c("X.", "Date-Time (EST)", "Ch: 1-Temperature (°C)", "Ch: 2-Temperature (°C)")
-names(MountviewFalls_6.17) <- c("X.", "Date-Time (EST)", "Ch: 1-Temperature (°C)", "Ch: 2-Temperature (°C)")
+names(MountviewFalls_6.1) <- c("X.", "Date-Time (EST)", "FT", "ST")
+  #MountviewFalls_6.1 <- subset(MountviewFalls_6.1, select = -c(y,z))
+names(MountviewFalls_6.2) <- c("X.", "Date-Time (EST)", "FT", "ST")
+  #MountviewFalls_6.2 <- subset(MountviewFalls_6.2, select = -c(y,z))
+names(MountviewFalls_6.3) <- c("X.", "Date-Time (EST)", "FT", "ST")
+  #MountviewFalls_6.3 <- subset(MountviewFalls_6.3, select = -c(y,z))
+names(MountviewFalls_6.4) <- c("X.", "Date-Time (EST)", "FT", "ST")
+names(MountviewFalls_6.5) <- c("X.", "Date-Time (EST)", "FT", "ST")
+names(MountviewFalls_6.6) <- c("X.", "Date-Time (EST)", "FT", "ST")
+names(MountviewFalls_6.7) <- c("X.", "Date-Time (EST)", "FT", "ST")
+names(MountviewFalls_6.8) <- c("X.", "Date-Time (EST)", "FT", "ST")
+names(MountviewFalls_6.9) <- c("X.", "Date-Time (EST)", "FT", "ST")
+names(MountviewFalls_6.10) <- c("X.", "Date-Time (EST)", "FT", "ST")
+names(MountviewFalls_6.11) <- c("X.", "Date-Time (EST)", "FT", "ST")
+names(MountviewFalls_6.12) <- c("X.", "Date-Time (EST)", "FT", "ST")
+names(MountviewFalls_6.13) <- c("X.", "Date-Time (EST)", "FT", "ST")
+names(MountviewFalls_6.14) <- c("X.", "Date-Time (EST)", "FT", "ST")
+names(MountviewFalls_6.15) <- c("X.", "Date-Time (EST)", "FT", "ST")
+names(MountviewFalls_6.16) <- c("X.", "Date-Time (EST)", "FT", "ST")
+names(MountviewFalls_6.17) <- c("X.", "Date-Time (EST)", "FT", "ST")
 
 
 
@@ -101,4 +101,41 @@ MountviewFalls_FullProbe6 <- rbind(MountviewFalls_6.1, MountviewFalls_6.2, Mount
                                    MountviewFalls_6.13, MountviewFalls_6.14, MountviewFalls_6.15, MountviewFalls_6.16,
                                    MountviewFalls_6.17)
 
+#Probe 5
+require (dplyr)
+#difference_FT
+difference_FT <- MountviewFalls_FullProbe5 %>% select(FT) %>% mutate(difference_FT = FT - lag(FT))
+print (difference_FT)
+#difference ST
+difference_ST <- MountviewFalls_FullProbe5 %>% select(ST) %>% mutate(difference_ST = ST - lag(ST))
+print (difference_ST)
+
+
+MountviewFalls_FullProbe5 <- cbind(MountviewFalls_FullProbe5, difference_FT, difference_ST)
+
+colnames(MountviewFalls_FullProbe5) <- c("X.", "Date-Time (EST)", "FT", "ST", "FT1", "difference_FT", "ST1", "difference_ST")
+MountviewFalls_FullProbe5 <- subset(MountviewFalls_FullProbe5, select = -c(FT1,ST1))
+
+#thermal shock 
+sum((MountviewFalls_FullProbe5$difference_FT) >= 1 | (MountviewFalls_FullProbe5$difference_FT) <= -1, na.rm = TRUE)
+sum((MountviewFalls_FullProbe5$difference_ST) >= 1 | (MountviewFalls_FullProbe5$difference_ST) <= -1, na.rm = TRUE)
+
+#Probe 6
+require (dplyr)
+#difference_FT
+difference_FT <- MountviewFalls_FullProbe6 %>% select(FT) %>% mutate(difference_FT = FT - lag(FT))
+print (difference_FT)
+#difference ST
+difference_ST <- MountviewFalls_FullProbe6 %>% select(ST) %>% mutate(difference_ST = ST - lag(ST))
+print (difference_ST)
+
+
+MountviewFalls_FullProbe6 <- cbind(MountviewFalls_FullProbe6, difference_FT, difference_ST)
+
+colnames(MountviewFalls_FullProbe6) <- c("X.", "Date-Time (EST)", "FT", "ST", "FT1", "difference_FT", "ST1", "difference_ST")
+MountviewFalls_FullProbe6 <- subset(MountviewFalls_FullProbe6, select = -c(FT1,ST1))
+
+#thermal shock 
+sum((MountviewFalls_FullProbe6$difference_FT) >= 1 | (MountviewFalls_FullProbe6$difference_FT) <= -1, na.rm = TRUE)
+sum((MountviewFalls_FullProbe6$difference_ST) >= 1 | (MountviewFalls_FullProbe6$difference_ST) <= -1, na.rm = TRUE)
 
