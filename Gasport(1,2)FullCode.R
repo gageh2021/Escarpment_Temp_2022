@@ -31,32 +31,32 @@ Gasport_2.2 <- read.csv("Gasport_Probe2.2.csv")
 
 
 
-names(Gasport_1.1) <- c("X.", "Date-Time (EST)", "Ch: 1-Temperature (°C)", "Ch: 2-Temperature (°C)", "y", "z")
-Gasport_1.1 <- subset(Gasport_1.1, select = -c(y,z))
-names(Gasport_1.2) <- c("X.", "Date-Time (EST)", "Ch: 1-Temperature (°C)", "Ch: 2-Temperature (°C)", "y", "z")
-Gasport_1.2 <- subset(Gasport_1.2, select = -c(y,z))
-names(Gasport_1.3) <- c("X.", "Date-Time (EST)", "Ch: 1-Temperature (°C)", "Ch: 2-Temperature (°C)", "y", "z")
-Gasport_1.3 <- subset(Gasport_1.3, select = -c(y,z))
-names(Gasport_1.4) <- c("X.", "Date-Time (EST)", "Ch: 1-Temperature (°C)", "Ch: 2-Temperature (°C)", "y", "z")
-Gasport_1.4 <- subset(Gasport_1.4, select = -c(y,z))
-names(Gasport_1.5) <- c("X.", "Date-Time (EST)", "Ch: 1-Temperature (°C)", "Ch: 2-Temperature (°C)", "y", "z")
-Gasport_1.5 <- subset(Gasport_1.5, select = -c(y,z))
-names(Gasport_1.6) <- c("X.", "Date-Time (EST)", "Ch: 1-Temperature (°C)", "Ch: 2-Temperature (°C)")
-names(Gasport_1.7) <- c("X.", "Date-Time (EST)", "Ch: 1-Temperature (°C)", "Ch: 2-Temperature (°C)")
-names(Gasport_1.8) <- c("X.", "Date-Time (EST)", "Ch: 1-Temperature (°C)", "Ch: 2-Temperature (°C)")
-names(Gasport_1.9) <- c("X.", "Date-Time (EST)", "Ch: 1-Temperature (°C)", "Ch: 2-Temperature (°C)")
-names(Gasport_1.10) <- c("X.", "Date-Time (EST)", "Ch: 1-Temperature (°C)", "Ch: 2-Temperature (°C)")
-names(Gasport_1.11) <- c("X.", "Date-Time (EST)", "Ch: 1-Temperature (°C)", "Ch: 2-Temperature (°C)")
-names(Gasport_1.12) <- c("X.", "Date-Time (EST)", "Ch: 1-Temperature (°C)", "Ch: 2-Temperature (°C)")
-names(Gasport_1.13) <- c("X.", "Date-Time (EST)", "Ch: 1-Temperature (°C)", "Ch: 2-Temperature (°C)")
-names(Gasport_1.14) <- c("X.", "Date-Time (EST)", "Ch: 1-Temperature (°C)", "Ch: 2-Temperature (°C)")
-names(Gasport_1.15) <- c("X.", "Date-Time (EST)", "Ch: 1-Temperature (°C)", "Ch: 2-Temperature (°C)")
-names(Gasport_1.16) <- c("X.", "Date-Time (EST)", "Ch: 1-Temperature (°C)", "Ch: 2-Temperature (°C)")
-names(Gasport_1.17) <- c("X.", "Date-Time (EST)", "Ch: 1-Temperature (°C)", "Ch: 2-Temperature (°C)")
-names(Gasport_1.18) <- c("X.", "Date-Time (EST)", "Ch: 1-Temperature (°C)", "Ch: 2-Temperature (°C)")
+names(Gasport_1.1) <- c("X.", "Date-Time (EST)", "FT", "ST", "y", "z")
+  Gasport_1.1 <- subset(Gasport_1.1, select = -c(y,z))
+names(Gasport_1.2) <- c("X.", "Date-Time (EST)", "FT", "ST", "y", "z")
+  Gasport_1.2 <- subset(Gasport_1.2, select = -c(y,z))
+names(Gasport_1.3) <- c("X.", "Date-Time (EST)", "FT", "ST", "y", "z")
+  Gasport_1.3 <- subset(Gasport_1.3, select = -c(y,z))
+names(Gasport_1.4) <- c("X.", "Date-Time (EST)", "FT", "ST", "y", "z")
+  Gasport_1.4 <- subset(Gasport_1.4, select = -c(y,z))
+names(Gasport_1.5) <- c("X.", "Date-Time (EST)", "FT", "ST", "y", "z")
+  Gasport_1.5 <- subset(Gasport_1.5, select = -c(y,z))
+names(Gasport_1.6) <- c("X.", "Date-Time (EST)", "FT", "ST")
+names(Gasport_1.7) <- c("X.", "Date-Time (EST)", "FT", "ST")
+names(Gasport_1.8) <- c("X.", "Date-Time (EST)", "FT", "ST")
+names(Gasport_1.9) <- c("X.", "Date-Time (EST)", "FT", "ST")
+names(Gasport_1.10) <- c("X.", "Date-Time (EST)", "FT", "ST")
+names(Gasport_1.11) <- c("X.", "Date-Time (EST)", "FT", "ST")
+names(Gasport_1.12) <- c("X.", "Date-Time (EST)", "FT", "ST")
+names(Gasport_1.13) <- c("X.", "Date-Time (EST)", "FT", "ST")
+names(Gasport_1.14) <- c("X.", "Date-Time (EST)", "FT", "ST")
+names(Gasport_1.15) <- c("X.", "Date-Time (EST)", "FT", "ST")
+names(Gasport_1.16) <- c("X.", "Date-Time (EST)", "FT", "ST")
+names(Gasport_1.17) <- c("X.", "Date-Time (EST)", "FT", "ST")
+names(Gasport_1.18) <- c("X.", "Date-Time (EST)", "FT", "ST")
 
-names(Gasport_2.1) <- c("X.", "Date-Time (EST)", "Ch: 1-Temperature (°C)", "Ch: 2-Temperature (°C)")
-names(Gasport_2.2) <- c("X.", "Date-Time (EST)", "Ch: 1-Temperature (°C)", "Ch: 2-Temperature (°C)")
+names(Gasport_2.1) <- c("X.", "Date-Time (EST)", "ST", "FT")
+names(Gasport_2.2) <- c("X.", "Date-Time (EST)", "ST", "FT")
 
 
 Gasport_FullProbe1 <- rbind(Gasport_1.1, Gasport_1.2, Gasport_1.3, Gasport_1.4, 
@@ -66,4 +66,42 @@ Gasport_FullProbe1 <- rbind(Gasport_1.1, Gasport_1.2, Gasport_1.3, Gasport_1.4,
                                    Gasport_1.17, Gasport_1.18)
 
 Gasport_FullProbe2 <- rbind(Gasport_2.1, Gasport_2.2)
+
+#Probe 1
+require (dplyr)
+#difference_FT
+difference_FT <- Gasport_FullProbe1 %>% select(FT) %>% mutate(difference_FT = FT - lag(FT))
+print (difference_FT)
+#difference ST
+difference_ST <- Gasport_FullProbe1 %>% select(ST) %>% mutate(difference_ST = ST - lag(ST))
+print (difference_ST)
+
+
+Gasport_FullProbe1 <- cbind(Gasport_FullProbe1, difference_FT, difference_ST)
+
+colnames(Gasport_FullProbe1) <- c("X.", "Date-Time (EST)", "FT", "ST", "FT1", "difference_FT", "ST1", "difference_ST")
+Gasport_FullProbe1 <- subset(Gasport_FullProbe1, select = -c(FT1,ST1))
+
+#thermal shock 
+sum((Gasport_FullProbe1$difference_FT) >= 1 | (Gasport_FullProbe1$difference_FT) <= -1, na.rm = TRUE)
+sum((Gasport_FullProbe1$difference_ST) >= 1 | (Gasport_FullProbe1$difference_ST) <= -1, na.rm = TRUE)
+
+#Probe 2
+require (dplyr)
+#difference_FT
+difference_FT <- Gasport_FullProbe2 %>% select(FT) %>% mutate(difference_FT = FT - lag(FT))
+print (difference_FT)
+#difference ST
+difference_ST <- Gasport_FullProbe2 %>% select(ST) %>% mutate(difference_ST = ST - lag(ST))
+print (difference_ST)
+
+
+Gasport_FullProbe2 <- cbind(Gasport_FullProbe2, difference_FT, difference_ST)
+
+colnames(Gasport_FullProbe2) <- c("X.", "Date-Time (EST)", "ST", "FT", "difference_ST", "difference_FT")
+#Gasport_FullProbe2 <- subset(Gasport_FullProbe2, select = -c(FT1,ST1))
+
+#thermal shock 
+sum((Gasport_FullProbe2$difference_FT) >= 1 | (Gasport_FullProbe2$difference_FT) <= -1, na.rm = TRUE)
+sum((Gasport_FullProbe2$difference_ST) >= 1 | (Gasport_FullProbe2$difference_ST) <= -1, na.rm = TRUE)
 
