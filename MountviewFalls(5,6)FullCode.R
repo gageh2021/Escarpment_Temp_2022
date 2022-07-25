@@ -104,38 +104,38 @@ MountviewFalls_FullProbe6 <- rbind(MountviewFalls_6.1, MountviewFalls_6.2, Mount
 #Probe 5
 require (dplyr)
 #difference_FT
-difference_FT <- MountviewFalls_FullProbe5 %>% select(FT) %>% mutate(difference_FT = FT - lag(FT))
-print (difference_FT)
+deltaFT <- MountviewFalls_FullProbe5 %>% select(FT) %>% mutate(deltaFT = FT - lag(FT))
+print (deltaFT)
 #difference ST
-difference_ST <- MountviewFalls_FullProbe5 %>% select(ST) %>% mutate(difference_ST = ST - lag(ST))
-print (difference_ST)
+deltaST <- MountviewFalls_FullProbe5 %>% select(ST) %>% mutate(deltaST = ST - lag(ST))
+print (deltaST)
 
 
-MountviewFalls_FullProbe5 <- cbind(MountviewFalls_FullProbe5, difference_FT, difference_ST)
+MountviewFalls_FullProbe5 <- cbind(MountviewFalls_FullProbe5, deltaFT, deltaST)
 
-colnames(MountviewFalls_FullProbe5) <- c("X.", "Date-Time (EST)", "FT", "ST", "FT1", "difference_FT", "ST1", "difference_ST")
-MountviewFalls_FullProbe5 <- subset(MountviewFalls_FullProbe5, select = -c(FT1,ST1))
+colnames(MountviewFalls_FullProbe5) <- c("X.", "Date-Time (EST)", "FT", "ST", "deltaFT", "deltaST", "a", "b", "c", "d")
+MountviewFalls_FullProbe5 <- subset(MountviewFalls_FullProbe5, select = -c(a, b, c, d))
 
 #thermal shock 
-sum((MountviewFalls_FullProbe5$difference_FT) >= 1 | (MountviewFalls_FullProbe5$difference_FT) <= -1, na.rm = TRUE)
-sum((MountviewFalls_FullProbe5$difference_ST) >= 1 | (MountviewFalls_FullProbe5$difference_ST) <= -1, na.rm = TRUE)
+sum((MountviewFalls_FullProbe5$deltaFT) >= 1 | (MountviewFalls_FullProbe5$deltaFT) <= -1, na.rm = TRUE)
+sum((MountviewFalls_FullProbe5$deltaST) >= 1 | (MountviewFalls_FullProbe5$deltaST) <= -1, na.rm = TRUE)
 
 #Probe 6
 require (dplyr)
 #difference_FT
-difference_FT <- MountviewFalls_FullProbe6 %>% select(FT) %>% mutate(difference_FT = FT - lag(FT))
-print (difference_FT)
+deltaFT <- MountviewFalls_FullProbe6 %>% select(FT) %>% mutate(deltaFT = FT - lag(FT))
+print (deltaFT)
 #difference ST
-difference_ST <- MountviewFalls_FullProbe6 %>% select(ST) %>% mutate(difference_ST = ST - lag(ST))
-print (difference_ST)
+deltaST <- MountviewFalls_FullProbe6 %>% select(ST) %>% mutate(deltaST = ST - lag(ST))
+print (deltaST)
 
 
-MountviewFalls_FullProbe6 <- cbind(MountviewFalls_FullProbe6, difference_FT, difference_ST)
+MountviewFalls_FullProbe6 <- cbind(MountviewFalls_FullProbe6, deltaFT, deltaST)
 
-colnames(MountviewFalls_FullProbe6) <- c("X.", "Date-Time (EST)", "FT", "ST", "FT1", "difference_FT", "ST1", "difference_ST")
-MountviewFalls_FullProbe6 <- subset(MountviewFalls_FullProbe6, select = -c(FT1,ST1))
+colnames(MountviewFalls_FullProbe6) <- c("X.", "Date-Time (EST)", "FT", "ST", "deltaFT", "deltaST", "a", "b", "c", "d")
+MountviewFalls_FullProbe6 <- subset(MountviewFalls_FullProbe6, select = -c(a, b, c, d))
 
 #thermal shock 
-sum((MountviewFalls_FullProbe6$difference_FT) >= 1 | (MountviewFalls_FullProbe6$difference_FT) <= -1, na.rm = TRUE)
-sum((MountviewFalls_FullProbe6$difference_ST) >= 1 | (MountviewFalls_FullProbe6$difference_ST) <= -1, na.rm = TRUE)
+sum((MountviewFalls_FullProbe6$deltaFT) >= 1 | (MountviewFalls_FullProbe6$deltaFT) <= -1, na.rm = TRUE)
+sum((MountviewFalls_FullProbe6$deltaST) >= 1 | (MountviewFalls_FullProbe6$deltaST) <= -1, na.rm = TRUE)
 
